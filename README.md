@@ -55,6 +55,14 @@ cd v2vision
 
 ## ⚙️ 2. Set Up MySQL Databases
 
+### 3. ✅ Update Database Configuration
+
+> 🛠 You must update your database configuration in both of the following files:
+
+server/server.js
+server/socket.js
+
+
 ### Create 4 databases:
 
 ```bash
