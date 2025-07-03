@@ -43,9 +43,7 @@
 
 ---
 
-![Uploading file_0000000004f061f78075dadc4795e2af.png…]()
-
-user-attachments/assets/5b738e89-f954-46fa-8ed4-e99a75e9e61d)
+![file_0000000004f061f78075dadc4795e2af](https://github.com/user-attachments/assets/1455d72c-bdee-418d-b15a-80732a4146e6)
 
 ---
 
@@ -59,7 +57,9 @@ cd v2vision
 ```
 
 ##⚙️ 2. Set Up MySQL Databases
+
 ### Create 4 databases:
+
 ```bash
 CREATE DATABASE v2vision_instance1;
 CREATE DATABASE v2vision_instance2;
