@@ -28,6 +28,8 @@
 5. 🛰️ Nearby vehicles are **fetched and displayed on map**, even if they are from another instance.
 
 ---
+![file_0000000004f061f78075dadc4795e2af](https://github.com/user-attachments/assets/1455d72c-bdee-418d-b15a-80732a4146e6)
+---
 
 ## 🏗️ Tech Stack
 
@@ -41,11 +43,6 @@
 | 🛢️ Database     | MySQL (Per Instance) |
 | 📐 Spatial Ops  | rbush, geolib      |
 
----
-
-![file_0000000004f061f78075dadc4795e2af](https://github.com/user-attachments/assets/1455d72c-bdee-418d-b15a-80732a4146e6)
-
----
 
 ## ⚙️ Setup Instructions
 
@@ -56,7 +53,7 @@ git clone https://github.com/yourusername/2vision.git
 cd v2vision
 ```
 
-##⚙️ 2. Set Up MySQL Databases
+## ⚙️ 2. Set Up MySQL Databases
 
 ### Create 4 databases:
 
@@ -85,7 +82,7 @@ CREATE TABLE vehicles (
 ```
 
 ## 🖥️ 3. Run Server Instances
-###Run 4 instances (each using different ports):
+### Run 4 instances (each using different ports):
 ```bash
 cd server/v2vision_instance1 && node index.js  # port 8000
 cd server/v2vision_instance2 && node index.js  # port 8001
@@ -93,7 +90,7 @@ cd server/v2vision_instance3 && node index.js  # port 8002
 cd server/v2vision_instance4 && node index.js  # port 8003
 ```
 
-##🌐 4. Start React Client
+## 🌐 4. Start React Client
 ```bash
 cd client
 npm install
