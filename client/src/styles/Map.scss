@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.all-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.fdc {
+    flex-direction: column;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.aic {
+    align-items: center;
+}
+
+
+
+#map-container{
+   height: 100%;     
+   overflow: hidden;
+}
+
+#map {
+    height: 100%;
+}
+
+
+
+/*controls*/
+#controls {
+  position: absolute;
+  right: 0;
+  bottom: 30px;  
+  display: flex;
+  gap: 8px;
+  padding: 0 12px;  
+  
+  button{
+    width: 50px;
+    height: 50px;
+    display: flex;    
+    border-radius: 50px;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  z-index: 30;
+}
+
+.custom-marker {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    top: -10px;
+    left: -20px;      
+    transform: unset;
+    transform-origin: center;            
+}
+
+.my-car{
+    z-index: 1000 !important;     
+}
+
+.custom-marker img {
+    width: 100%;
+    height: 100%;
+    text-align: left;    
+}
+
+.orien{
+  display: none;
+  position: fixed; 
+  top: 0;
+  left: 0;  
+  width: 100%;  
+  background: white;   
+  gap: 6px;
+  
+  z-index: 1000;
+   
+   p{       
+       padding: 8px;   
+       width: 50%;     
+   }
+}
