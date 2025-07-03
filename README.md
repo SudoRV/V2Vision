@@ -59,7 +59,8 @@ cd v2vision
 
 > 🛠 You must update your database configuration in both of the following files:
 
-server/server.js\n
+server/server.js
+
 server/socket.js
 
 
